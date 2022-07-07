@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>My links</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded' , () => {
+        VANTA.BIRDS({
+  el: "#vanta",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color1: 0x000000,
+  color2: 0x000000,
+  birdSize: 1.20,
+  backgroundAlpha: 0.0
+})
+
+setTimeout(() => {
+    const main = document.querySelector('main')
+    main.style.opacity = 1
+}, 1000)
+    })
+</script>
+</head>
+
+<body>
+    
+    <video autoplay muted loop plays-inline>
+        <source src="images/pexels-pat-whelen-5736027.mp4" type="video/webm; codecs=vp9">
+    </video>
+
+<div id="vanta"></div>
+    <main>
+        <header>
+            <img src="./images/moi.png" width="250" height="250 ">
+            <h1>Ali Ouazzani Housni Touhami</h1>
+            <header>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/ali.ouazzani.5/">
+                            <img src="images/icons8-facebook-nouveau-48.png" alt="fb" width="20">
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ali.ouazzani.h.t/">
+                            <img src="images/icons8-instagram-48.png" alt="" width="20" >
+                            Instagrame
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ali-ouazzani-housni-touhami-050a031a1/">
+                            <img src="images/icons8-linkedin-entouré-48.png" alt="" width="20" >
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://Youtube.com">
+                            <img src="images/icons8-lecture-de-youtube-48.png" alt="" width="20">
+                            Youtube
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/icons8-github-20.png" alt="" width="20">
+                            Github
+                        </a>
+                    </li>
+                </ul>
+            </header>
+        </header>
+    </main>
+</body>
+</html>
