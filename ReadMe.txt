@@ -2,6 +2,7 @@
 
 	
 	This a web page that you can use as an identifiant for yourself
+	when you click on a social media button you are redirected to the profile link
 	you can customize yours by changing elements or adding a new ones 
 	if you want to keep the same templates all you have to do is 
 	change profile picture, name , links in the HTML page 
